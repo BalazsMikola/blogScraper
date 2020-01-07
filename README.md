@@ -25,5 +25,6 @@ for both Frontend and Backend.
 - Add your IP adress to the whitelist in Atlas under the "Network Access" menu
 
 ### Start the app
+- create an empty folder called "assets" inside the Backend folder for the downloaded images
 - use the command "nodemon express.js" or "node express.js" in the terminal inside Backend folder
 - start React in Frontend folder using the command "npm start"
