@@ -20,10 +20,11 @@ for both Frontend and Backend.
 
 ### Setup Mongo
 - Create a new collection called "risingStack" in mongoDB Atlas (no need to create any database the app will do the job)
-- Create a new user and password in "Database Access" menu in Atlas or use an exiting one
+- Create a new user and password in "Database Access" menu in Atlas or use an existing one
 - Add your own mongo connection link to .env file (just overwrite the example link at MONGO_CONNECTION key)
 - Add your IP adress to the whitelist in Atlas under the "Network Access" menu
 
 ### Start the app
+- create an empty folder called "assets" inside the Backend folder for the downloaded images
 - use the command "nodemon express.js" or "node express.js" in the terminal inside Backend folder
 - start React in Frontend folder using the command "npm start"
